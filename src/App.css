@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.food-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-see{
+  cursor: pointer;
+}
+
+.entry-form{
+  width: 60vw;
+  padding-left: 30vw;
+}
+.entry-label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button{
+  margin-top: 2vh;
+}
+
+.toggle-form{
+  display: none;
+}
